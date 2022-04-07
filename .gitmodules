@@ -1,0 +1,8 @@
+[submodule "cmap"]
+	path = cmap
+	url = https://github.com/tsipkens/cmap
+	branch = master
+[submodule "autils"]
+	path = autils
+	url = https://github.com/tsipkens/autils
+	branch = main
