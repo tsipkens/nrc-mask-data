@@ -7,5 +7,10 @@ This is a parent repository for public data from the National Research Council C
 
 **joeh22** contains data associated with [Sipkens et al. (J. Occup. Evinron. Hyg., 2022)][joeh22], an article discussing various representations of PFE with a focus on the difference between number-based PFE (NPFE) and mass-based PFE (MPFE). 
 
+---
+
+**sd22** contains data for an article discussing the difference between PFE testing using a polydisperse NaCl or monodisperse PSL challenge aerosol. 
+
+
 
 [joeh22]: https://doi.org/10.1080/15459624.2022.2114596
