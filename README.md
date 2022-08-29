@@ -1,15 +1,8 @@
+
 # Mask data
 
-A repository containing measurements of masks, respirators, and filtration media. Measurements include pressure drop and particle filtration efficiency (PFE), with accompanying methods for computing number-based filtration efficiencies (NPFE) and mass-based filtration efficiency (MPFE). 
+This is a parent repository for public data from the National Research Council Canada with respect to the measurement of particle filtration efficiency (PFE) of filtration media, largely in connection with face mask products. It currently contains the following sub-repositories: 
 
-### Notes
+1. **joeh22** contains data associated with [Sipkens et al. (2022)][joeh22], an article discussing various representations of PFE with a focus on the difference between number-based PFE (NPFE) and mass-based PFE (MPFE).
 
-- Filtration is given as a penetration, *P*, and as a fraction (not a percentage). Thus, PFEs in percent are given by 100%(1 - *P*).
-
-- Penetrations reported for the TSI1 and TSI2 have a single value across repeats of the same lot. This is the mean for internal measurements that were matched based on the lot. 
-
-- The most penetrating particle size (MPPS) was determined probabilistically, as per the support manuscript. 
-
-### Supporting manuscript
-
-Sipkens et al. Comparison of measurement systems for assessing number- and mass-based particle filtration efficiency. (XXXX). 
+[joeh22]: https://doi.org/10.1080/15459624.2022.2114596
