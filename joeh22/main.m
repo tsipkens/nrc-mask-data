@@ -16,14 +16,15 @@ d = s(1).dm;
 
 
 prop = massmob.init('salt');  % get mass-mobility parameters
+prop_alt = massmob.init('zet', 2.97, 'rho100', 1940);
 
 % Compute integrated quantities.
 [dg_up, sg_up] = get_geo([s.smps1], [s.dm]);
 [dg_down, sg_down] = get_geo([s.smps2], [s.dm]);
 n_ni = pfe.npfe([s.smps1], [s.smps2]);
-m_ni = pfe.mpfe_ni([s.smps1], [s.smps2], [s.dm]);
-m_hc = pfe.mpfe_hc([s.smps1], [s.smps2], [s.dm]);
-m_hc2 = pfe.mpfe_hc([s.smps1], [s.smps2], [s.dm], 2.97);
+m_ni = pfe.mpfe_ni([s.smps1], [s.smps2], [s.dm], prop);
+m_hc = pfe.mpfe_hc([s.smps1], [s.smps2], [s.dm], prop);
+m_hc2 = pfe.mpfe_hc([s.smps1], [s.smps2], [s.dm], prop_alt);
 
 ri = 1.54 + 0j;  % particle refractive index (salt)
 int = mie.get_intensity(532e-9, [s.dm] .* 1e-9, ri, [], 45/180*pi);
