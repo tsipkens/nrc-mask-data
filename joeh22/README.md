@@ -13,6 +13,11 @@ A repository containing measurements of masks, respirators, and filtration media
 
 ### Supporting manuscript
 
-[Sipkens et al., Comparison of measurement systems for assessing number- and mass-based particle filtration efficiency. (2022).][joeh22]
+[Sipkens, Timothy A., Joel C. Corbin, Triantafillos Koukoulas, Andrew Oldershaw, Thierry Lavoie, Jalal Norooz Oliaee, Fengshan Liu et al. "Comparison of measurement systems for assessing number-and mass-based particle filtration efficiency." *Journal of Occupational and Environmental Hygiene* (2022).][joeh22]
+
+Data is also loosely affiliated with or has overlapping data with: 
+
+[Corbin, Joel C., Greg J. Smallwood, Ian D. Leroux, Jalal Norooz Oliaee, Fengshan Liu, Timothy A. Sipkens, Richard G. Green, Nathan F. Murnaghan, Triantafillos Koukoulas, and Prem Lobo. "Systematic experimental comparison of particle filtration efficiency test methods for commercial respirators and face masks." *Scientific Reports* 11, no. 1 (2021): 1-16.][sr22]
 
 [joeh22]: https://doi.org/10.1080/15459624.2022.2114596
+[sr22]: https://doi.org/10.1038/s41598-021-01265-8
