@@ -1,8 +1,8 @@
-[submodule "cmap"]
-	path = cmap
+[submodule "joeh22/cmap"]
+	path = joeh22/cmap
 	url = https://github.com/tsipkens/cmap
 	branch = master
-[submodule "autils"]
-	path = autils
+[submodule "joeh22/autils"]
+	path = joeh22/autils
 	url = https://github.com/tsipkens/autils
 	branch = main
