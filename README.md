@@ -3,13 +3,13 @@
 
 This is a parent repository for public data from the National Research Council Canada with respect to the measurement of particle filtration efficiency (PFE) of filtration media, largely in connection with face mask products. A README is available in each sub-repository with specific details on the data and associated code. It currently contains the following sub-repositories: 
 
----
+## SD22
 
-**sd22** contains data for an article discussing the difference between PFE testing using a polydisperse NaCl or monodisperse PSL challenge aerosol. 
+This dataset contains data for an article discussing the difference between PFE testing using a polydisperse NaCl or monodisperse PSL challenge aerosol. 
 
----
+## JOEH22
 
-**joeh22** contains data associated with [Sipkens et al. (J. Occup. Evinron. Hyg., 2022)][joeh22], an article discussing various representations of PFE with a focus on the difference between number-based PFE (NPFE) and mass-based PFE (MPFE). 
+This dataset contains data associated with [Sipkens et al. (J. Occup. Evinron. Hyg., 2022)][joeh22], an article discussing various representations of PFE with a focus on the difference between number-based PFE (NPFE) and mass-based PFE (MPFE). 
 
 <img src="joeh22/docs/01_npfe_mpfe.jpg/" style="width:500px;">
 
