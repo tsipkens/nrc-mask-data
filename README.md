@@ -7,7 +7,7 @@ This is a parent repository for public data from the National Research Council C
 
 **joeh22** contains data associated with [Sipkens et al. (J. Occup. Evinron. Hyg., 2022)][joeh22], an article discussing various representations of PFE with a focus on the difference between number-based PFE (NPFE) and mass-based PFE (MPFE). 
 
-<img src="joeh22/docs/01_npfe_mpfe.jpg/" style="width:90%;max-width:500px;">
+<img src="joeh22/docs/01_npfe_mpfe.jpg/" style="width:90%;max-width:400px;">
 
 ---
 
