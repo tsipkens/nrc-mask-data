@@ -5,7 +5,7 @@ This is a parent repository for public data from the National Research Council C
 
 ## SD22
 
-This dataset contains data for an article discussing the difference between PFE testing using a polydisperse NaCl or monodisperse PSL challenge aerosol. 
+This dataset contains data for an article discussing the difference between PFE testing using a polydisperse NaCl or monodisperse PSL challenge aerosol. This is an important dataset in showing the equivalent levels of PFE between the two test methods. 
 
 <img src="sd22/docs/02_nacl_psl.jpg/" style="width:500px;">
 
