@@ -3,9 +3,9 @@
 
 This is a parent repository for public data from the National Research Council Canada related to the measurement of particle filtration efficiency (PFE) of filtration media, largely in connection with face mask products. A README is available in each sub-repository with specific details on the data and associated code. It currently contains the following sub-repositories: 
 
-## SD22 (PSL v. NaCl)
+## SD22
 
-This dataset contains data for an article discussing the difference between PFE testing using a polydisperse NaCl or monodisperse PSL challenge aerosol. This is an important dataset in showing the equivalent levels of PFE between the two test methods. 
+This dataset contains data for an article discussing the difference between PFE testing using a polydisperse ***NaCl*** or monodisperse ***PSL*** challenge aerosol. This is an important dataset in showing the equivalent levels of PFE between the two test methods. 
 
 <img src="sd22/docs/02_nacl_psl.jpg/" style="width:500px;">
 
