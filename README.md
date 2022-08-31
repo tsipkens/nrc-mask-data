@@ -11,7 +11,7 @@ This dataset contains data for an article discussing the difference between PFE 
 
 ## JOEH22
 
-This dataset contains data associated with [Sipkens et al. (J. Occup. Evinron. Hyg., 2022)][joeh22], an article discussing various representations of PFE with a focus on the difference between number-based PFE (NPFE) and mass-based PFE (MPFE). 
+This dataset contains data associated with [Sipkens et al. (J. Occup. Evinron. Hyg., 2022)][joeh22], an article discussing various representations of PFE with a focus on the difference between number-based PFE (NPFE) and mass-based PFE (MPFE). This folder also contains Matlab code supporting the associated publication, generating the figures from that work. 
 
 <img src="joeh22/docs/01_npfe_mpfe.jpg/" style="width:500px;">
 
