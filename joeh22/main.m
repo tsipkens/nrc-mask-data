@@ -95,6 +95,7 @@ colorbar;
 %%
 % FIG 4: SPFE for subset of data with known properties.
 figure(4);
+fgl = 3:4;  % Greenline
 fh = color > 2.1;  % flag high MPPS
 fl = color < 1.8;  % flag low MPPS
 m1 = median(real(log(1 - sp(:,fh))), 2, 'omitnan');
@@ -103,6 +104,7 @@ s1u = prctile(real(log(1 - sp(:,fh))), 75, 2);
 m2 = median(real(log(1 - sp(:,fl))), 2, 'omitnan');
 s2l = prctile(real(log(1 - sp(:,fl))), 25, 2);
 s2u = prctile(real(log(1 - sp(:,fl))), 75, 2);
+mgl = median(real(log(1 - sp(:,fgl))), 2, 'omitnan');
 
 plot(d, exp(m1), 'k');
 hold on;
@@ -111,12 +113,14 @@ plot(d, exp(s1u), '--');
 plot(d, exp(m2), 'k');
 plot(d, exp(s2l), '--');
 plot(d, exp(s2u), '--');
+plot(d, exp(mgl), 'k-', 'LineWidth', 1.5);  % Greenline
 hold off;
 
 set(gca, 'XScale', 'log', 'YScale', 'log', ...
     'XDir', 'normal', 'YDir', 'reverse');
 xlim([22, 320]);
 title('SPFE for data subset');
+legend({'dMPPS > 125 nm','err','err', 'dMPPS < 63 nm','err','err', 'Greenline'});
 
 %%
 % FIG 5: SPFE @ 100 nm v. MPFE.
